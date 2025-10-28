@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>自己紹介ページ 拡張版</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="p-5">
+    <div class="container">
+      <h1 class="mb-4">自己紹介ページ</h1>
+
+      <!-- ドロップダウン＋入力欄 -->
+      <div class="input-group mb-3">
+        <button
+          class="btn btn-outline-secondary dropdown-toggle"
+          type="button"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+          id="categoryBtn"
+        >
+          趣味
+        </button>
+        <ul class="dropdown-menu">
+          <li>
+            <a class="dropdown-item" href="#" data-value="hobbies">趣味</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="#" data-value="skills">特技</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="#" data-value="foods"
+              >好きな食べ物</a
+            >
+          </li>
+        </ul>
+        <input
+          type="text"
+          class="form-control"
+          placeholder="入力して Enter を押してください"
+          id="userInput"
+        />
+      </div>
+
+      <!-- 表示エリア -->
+      <div class="mb-3">
+        <p id="outputDisplay" class="form-control-plaintext">
+          ここに反映されます
+        </p>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
+
+<!-- <html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>課題</title>
+  </head>
+  <body>
+    <h1 style="text-align: center">課題ページへようこそ！</h1>
+    <div class="mb-3">
+      <button id="hobbyBtn"></button>
+      <button id="foodBtn"></button>
+      <button id="skillBtn"></button>
+    </div>
+
+    <div class="input-group mb-3">
+      <div class="input-group-prepend">
+        <button
+          class="btn btn-outline-secondary dropdown-toggle"
+          type="button"
+          data-toggle="dropdown"
+          aria-haspopup="true"
+          aria-expanded="false"
+        >
+          Dropdown
+        </button>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="#" data-value="hobbies">趣味</a>
+          <a class="dropdown-item" href="#" data-value="foods">好きな食べ物</a>
+          <a class="dropdown-item" href="#" data-value="skills">特技</a>          
+        </div>
+      </div>
+      <input
+        type="text"
+        class="form-control"
+        placeholder="入力して Enter を押してください"
+        id="inputText"
+      />
+    </div>
+
+     <div class="mb-3">
+        <label for="categorySelect" class="form-label">カテゴリを選択</label>
+        <select id="categorySelect" class="form-select">
+            <option value="hobbies">趣味を入力</option>
+            <option value="foods">好きな食べ物を入力</option>
+            <option value="skills">特技を入力</option>
+        </select>
+    </div>
+    
+    <div class="mb-3">
+        <label for="inputText" class="form-label">追加したい内容を入力</label>
+        <input type="text" id="inputText" class="form-control" placeholder="れい：読書">
+    </div> -->
+
+<!-- <div class="mb-3">
+      <label for="form-label">現在の選択表示</label>
+      <p id="outputDisplay" class="form-control-plaintext">
+        ここに反映されます
+      </p>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html> -->

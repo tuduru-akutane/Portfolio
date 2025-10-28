@@ -1,0 +1,33 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 50px;
+  transition: background-color 0.3 ease;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.2 ease;
+}
+
+button:hover {
+  background-color: #ccc;
+}
+
+.dark-mode {
+  background-color: #333;
+  color: #fff;
+}
+
+.fade {
+  opacity: 0;
+  transition: opacity 0.8s ease;
+}
+
+.fade.show {
+  opacity: 1;
+}
